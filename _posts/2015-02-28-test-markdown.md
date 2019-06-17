@@ -2,9 +2,11 @@
 layout: post
 title: Test markdown
 subtitle: Each post also has a subtitle
+image: /img/hello_world.jpeg
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [test]
+bigimg: /img/path.jpg
 comments: true
 ---
 
@@ -24,9 +26,9 @@ Here's a useless table:
 | Two | Three | One |
 
 
-How about a yummy crepe?
+How about a path?
 
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
+![Path](/img/path.jpg)
 
 Here's a code chunk:
 

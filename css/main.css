@@ -90,9 +90,11 @@ img {
   max-width: 100%;
 }
 
-.blog-post > p > img {
-  max-width: 70%;
-  margin: 0 15%;
+@media only screen and (min-width: 768px) {
+  .blog-post > p > img {
+    max-width: 70%;
+    margin: 0 15%;
+  }
 }
 
 .disqus-comments {

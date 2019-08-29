@@ -22,8 +22,7 @@ p {
   margin: 30px 0;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: Merriweather,'Noto Serif CJK SC','Noto Serif SC','Source Han Serif SC','Songti SC',STSong,'Microsoft YaHei','微软雅黑',sans-serif;
-  font-weight: 800;
+  font-weight: 700;
 }
 a {
   color: {{ site.link-col }};
@@ -117,7 +116,6 @@ img {
 .navbar-custom {
   background-color: {{ site.navbar-col }};
   border-bottom: 1px solid #EAEAEA;
-  font-family: 'Noto Serif', 'Noto Serif CJK SC', 'Noto Serif CJK', 'Source Han Serif SC', 'Source Han Serif CN', 'Source Han Serif', 'source-han-serif-sc', serif;
   {% if site.navbar-img %}
   background-image: url({{ site.navbar-img }});
   background-attachment: fixed;
@@ -365,7 +363,7 @@ footer .theme-by {
   margin: 0 0 10px;
 }
 .post-preview .post-entry {
-  font-family: 'Noto Serif', 'Noto Serif CJK SC', 'Noto Serif CJK', 'Source Han Serif SC', 'Source Han Serif CN', 'Source Han Serif', 'source-han-serif-sc', serif;
+
 }
 .post-entry-container {
   display: inline-block;

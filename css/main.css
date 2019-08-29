@@ -120,6 +120,7 @@ img {
   background-image: url({{ site.navbar-img }});
   background-attachment: fixed;
   {% endif %}
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .navbar-custom .nav li a {
@@ -240,7 +241,8 @@ img {
   background-color: {{ site.navbar-children-col }};
   text-decoration: none !important;
   border-width: 0 1px 1px 1px;
-  font-weight: normal;
+  font-weight: bold;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 @media only screen and (max-width: 767px) {
   .navbar-custom .nav .navlinks-container.show-children {
@@ -255,6 +257,8 @@ img {
     text-align: center;
   }
   .navbar-custom .nav .navlinks-container:hover {
+    transition: 0.2s;
+    border-radius: 5px;
     background: rgba(0, 0, 0, 0.1);
   }
   .navbar-custom .nav .navlinks-container:hover .navlinks-children {

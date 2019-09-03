@@ -17,6 +17,7 @@ description: A simple blog.
 
 # List of links in the navigation bar
 navbar-links:
+  Articles: "tags"
   Projects:
     - Tab Space: "http://yuanzhoucq.github.io/Tab-Space"
   About Me: "aboutme"
@@ -83,9 +84,9 @@ social-network-links:
 # Select which share links to show in posts
 share-links-active:
   twitter: true
-  facebook: true
+  facebook: false
   google: false
-  linkedin: true
+  linkedin: false
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
@@ -148,7 +149,7 @@ title-separator: "-"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "Asia/Shanghai"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/

@@ -136,7 +136,7 @@ img {
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #000000;
+  color: #DA0F47;
 }
 
 .navbar-custom .navbar-brand-logo {
@@ -160,7 +160,8 @@ img {
 
 @media only screen and (min-width: 768px) {
   .navbar-custom {
-    padding: 20px 0;
+    padding: 10px 0;
+    background-color: rgba(0,0,0,0);
     -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
     -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
     transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -168,6 +169,7 @@ img {
 
   .navbar-custom.top-nav-short {
     padding: 0;
+    background-color: #F5F5F5;
   }
 }
 
@@ -794,6 +796,10 @@ td.gutter {
 #full-tags-list .tag-entry a {
   color: #404040;
   font-size: 20px;
+}
+
+#full-tags-list .tag-entry a:hover {
+  color: {{ site.hover-col }};
 }
 
 #full-tags-list .tag-entry .entry-date {

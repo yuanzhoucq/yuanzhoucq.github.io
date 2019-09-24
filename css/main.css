@@ -3,11 +3,12 @@ layout: null
 ---
 
 @import url("pygment_highlights.css");
+@import url('https://fonts.googleapis.com/css?family=Mada:400,500&display=swap');
 
 /* --- General --- */
 
 body {
-  font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-family: Mada, "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
   font-size: 18px;
   color: #404040;
   position: relative;
@@ -235,6 +236,7 @@ img {
 }
 .navbar-custom .nav .navlinks-parent:after {
   content: " \25BC";
+  font-size: 10px;
 }
 .navbar-custom .nav .navlinks-children {
   width: 100%;

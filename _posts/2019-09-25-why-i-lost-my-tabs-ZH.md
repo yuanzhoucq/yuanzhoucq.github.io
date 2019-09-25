@@ -9,9 +9,9 @@ tags: [Tab Space]
 
 ## 为什么数据会丢失？
 
-最初，Tab Space 把用户数据存储在浏览器内一个名为 `locaStorage` 的地方，它位于 `safari-extension://{tab-space-bundle-id}` 这个域之下。这个存储只能被用户在浏览器中访问。然而, Safari 13 更改了扩展 App 拥有的存储域，它现在变成了 `safari-extension://{some-random-id}`。 因此, Tab Space 在 Safari 13 中不再能访问到原先的存储域，数据在我们看来也就丢失了。
+最初，Tab Space 把用户数据存储在浏览器内一个名为 `locaStorage` 的地方，它位于 `safari-extension://{tab-space-bundle-id}` 这个域之下。这个存储只能被用户在浏览器中访问。然而，Safari 13 更改了扩展 App 拥有的存储域，它现在变成了 `safari-extension://{some-random-id}`。 因此，Tab Space 在 Safari 13 中不再能访问到原先的存储域，数据在我们看来也就丢失了。
 
-当我在一位用户的帮助下发现这一问题的时候, 我重新设计了 Tab Space 的存储机制，把存储位置从 `localStorage` 转移到 Tab Space 程序内部。 这样它就可以不再受 Safari 浏览器变动的影响。随后，我把这一新版本 (2.3.2) 提交到 Mac App Store。正常来讲，24 小时内就会通过审核，然后用户自动更新，没有人会丢失数据，皆大欢喜。然而可惜的是，可能由于最近 macOS 将要升级到 10.15 版本，提交新版本的程序较多，Tab Space 新版本的审核花去了将近一星期的时间。这期间，很多用户的 Mac 已经自动升级了 Safari 13，数据也就丢失了。
+当我在一位用户的帮助下发现这一问题的时候，我重新设计了 Tab Space 的存储机制，把存储位置从 `localStorage` 转移到 Tab Space 程序内部。 这样它就可以不再受 Safari 浏览器变动的影响。随后，我把这一新版本 (2.3.2) 提交到 Mac App Store。正常来讲，24 小时内就会通过审核，然后用户自动更新，没有人会丢失数据，皆大欢喜。然而可惜的是，可能由于最近 macOS 将要升级到 10.15 版本，提交新版本的程序较多，Tab Space 新版本的审核花去了将近一星期的时间。这期间，很多用户的 Mac 已经自动升级了 Safari 13，数据也就丢失了。
 
 ## 失去的标签页可以恢复吗？
 

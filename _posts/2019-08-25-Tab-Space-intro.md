@@ -1,5 +1,5 @@
 ---
-title: Tab Space | 管理标签页，增加快捷键：助力 Safari 网上冲浪的效率工具
+title: Tab Space ｜ 管理标签页，增加快捷键：助力 Safari 网上冲浪的效率工具
 tags: [Side project, macOS, Tab Space]
 gh-repo: yuanzhoucq/Tab-Space
 gh-badge: [star]

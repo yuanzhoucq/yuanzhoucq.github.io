@@ -1,4 +1,7 @@
-# 译文 ｜ C++ 动态分配数组空间
+---
+title: 译文 ｜ C++ 动态分配数组空间
+tags: [Translation, C++]
+---
 
 > [https://www.learncpp.com/cpp-tutorial/6-9a-dynamically-allocating-arrays/](https://www.learncpp.com/cpp-tutorial/6-9a-dynamically-allocating-arrays/)
 

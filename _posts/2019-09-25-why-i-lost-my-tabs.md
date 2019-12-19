@@ -3,6 +3,18 @@ title: Why I lost my tabs in Tab Space?
 tags: [Tab Space]
 ---
 
+
+
+---
+
+**If you noticed that all your saved sessions disappeared, that is mostly because Tab Space had just upgraded. Just wait for a few seconds, your data will be restored automatically.** 
+
+If they do not reappear, please continue to read. 
+
+---
+
+
+
 Dear Tab Space users,
 
 If you recently upgraded Safari 13 before upgrading Tab Space to version 2.3.2, you may found that your saved tabs disappeared. I am deeply sorry for this situation and here's why.

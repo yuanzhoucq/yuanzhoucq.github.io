@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
-url: "http://yuanzhoucq.github.io"
+url: "https://joyuer.cn"
 baseurl: ""
 
 # Name of website
@@ -19,8 +19,9 @@ description: A simple blog.
 navbar-links:
   Articles: "tags"
   Projects:
-    - Tab Space: "https://yuanzhoucq.github.io/Tab-Space"
-    - ilangbd: "https://github.com/yuanzhoucq/ilangbd"
+    - Tab Space: "Tab-Space"
+    - Locale Switcher: "https://apps.apple.com/cn/app/dark-reader-for-safari/id1438243180?mt=12"
+    - ilangbd: "ilangbd"
     - CCTV Program List: "cctv"
   About Me: "aboutme"
 

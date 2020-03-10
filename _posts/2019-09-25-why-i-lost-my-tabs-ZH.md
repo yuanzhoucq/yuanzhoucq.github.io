@@ -7,9 +7,9 @@ tags: [Tab Space]
 
 ---
 
-**如果您刚刚发现 Tab Space 保存的所有标签页都消失了，这很可能是 Tab Space 刚刚进行了一次更新，您只需要等待几秒钟，数据就会自动恢复。**
+**如果您刚刚发现 Tab Space 保存的所有标签页都消失了，这很可能是 Tab Space 刚刚进行了一次更新，您只需要等待几秒钟，数据就会自动恢复。如果无法恢复，请通过“访达->前往->前往文件夹”进入“~/Library/Containers/cn.joyuer.Tab-Works.ext/Data/Library/Preferences”，打开“cn.joyuer.Tab-Works.ext.plist”文件，将其中Bookmarks的值保存命名为 file.tabspace 文件，然后可以将其重新导入 Tab Space。**
 
-如果他们没有自动恢复，请继续往下阅读。
+如果仍然无法恢复，请继续往下阅读。
 
 ---
 

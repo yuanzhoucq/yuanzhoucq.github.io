@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Locale Switcher</title>
+</head>
+<body>
+Drag this to your bookmark bar. <a href="javascript:(function(){ let pairs=[['en-us', 'zh-cn'], ['en-US', 'zh-CN']]; pairs.forEach(pair => pair.forEach((locale, id) => {if (location.href.includes(locale)) {location.href = location.href.replace(locale, pair[1-id])} }))})()">Locale Switcher</a>
+</body>
+</html>

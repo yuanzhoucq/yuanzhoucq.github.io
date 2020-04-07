@@ -20,7 +20,7 @@ navbar-links:
   Articles: "tags"
   Projects:
     - Tab Space: "Tab-Space"
-    - Locale Switcher: "https://apps.apple.com/cn/app/locale-switcher/id1501719622?mt=12"
+    - Locale Switcher: "Locale-Switcher"
     - ilangbd: "ilangbd"
     - CCTV Program List: "cctv"
   About Me: "aboutme"

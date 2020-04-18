@@ -7,12 +7,12 @@ tags: [Tab Space]
 
 ---
 
-**If you noticed that all your saved sessions disappeared, that is mostly because Tab Space had just upgraded. Just wait for a few seconds, your data will be restored automatically. If not, you can use Finder -> Go to -> Go to Folder -> "~/Library/Containers/cn.joyuer.Tab-Works.ext/Data/Library/Preferences", and open "cn.joyuer.Tab-Works.ext.plist”, copy the Value of Bookmarks, then save the content as a file named “file.tabspace”. Then you will be able to import it from Tab Space.**
+Updated 04/18/2020:
 
-If this doesn't work, please continue to read. 
+**If you noticed that all your saved sessions disappeared, that is mostly because Tab Space had just upgraded. Just wait for a few minutes and refresh the page, your data will be restored automatically. If not, you can use Finder -> Go to -> Go to Folder -> "~/Library/Containers/cn.joyuer.Tab-Works.ext/Data/Library/SyncedPreferences", and open "cn.joyuer.Tab-Works.ext.plist”, copy the Value of Bookmarks (`[[...]]`), then save the content as a file named “file.tabspace”. Then you will be able to import it from Tab Space.**
 
 ---
-
+Updated 09/25/2019:
 
 
 Dear Tab Space users,

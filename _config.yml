@@ -21,7 +21,7 @@ navbar-links:
   Projects:
     - Tab Space: "Tab-Space"
     - Locale Switcher: "Locale-Switcher"
-    - ilangbd: "ilangbd"
+    - ilangbd: "https://github.com/yuanzhoucq/ilangbd"
     - CCTV Program List: "cctv"
   About Me: "aboutme"
 
